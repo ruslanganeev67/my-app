@@ -32,4 +32,5 @@ app.post('/add', (req, res) => {
   res.send({ link: "/client/" + id });
 });
 
-app.listen(3000, () => console.log('Запуск'));
+const PORT = process.env.PORT || 3000;
+app.listen(PORT, () => console.log('Запуск на ' + PORT));
