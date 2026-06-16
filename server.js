@@ -9,7 +9,7 @@ app.get('/', (req, res) => {
       <title>Мой сервер</title>
       <meta charset="utf-8">
     </head>
-    <body style="font-family: Arial; text-align:center; margin-top:80px;">
+    <body style="font-family: Arial; text-align:center; margin-top:80px; background:#111; color:white;">
       <h1>🚀 Сервер работает</h1>
       <p>API активен</p>
       <p>/add — добавить заявку</p>
